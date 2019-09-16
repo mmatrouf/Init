@@ -1,0 +1,5 @@
+#!/bin/bash
+
+read -p  "entrer le nom d'utilisateur que vous voulez supprimer: " use;
+sudo pkill -u $use;
+sudo deluser $use;
